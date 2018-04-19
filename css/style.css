@@ -1,0 +1,65 @@
+body {
+    background-image: url("../img/tapete_barock_gold.jpg");
+}
+
+@font-face {
+    font-family: rothenbg;
+    src: url("../fonts/rothenbg.ttf");
+}
+
+.headline {
+  font-family: rothenbg;
+}
+
+#collapsingNavbar a{
+  margin-top: 25px;
+  color: rgb(40, 30, 2);
+  font-size: 4em;
+  font-family: rothenbg;
+}
+
+#collapsingNavbar a:hover{
+  color: rgb(107, 81, 6);
+}
+
+.menu-active {
+  color: rgb(107, 81, 6) !important;
+}
+
+img{
+  width: 80%;
+  margin: 25px;
+  background-color: white;
+  font-weight: bold;
+}
+
+.news-text {
+  background-color: rgba(246, 221, 171, 0.5);
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.news-text h2, h3, h4{
+    font-family: rothenbg;
+    margin-top: 15px;
+}
+
+.news-text p{
+    font-family: 'Courier', serif;
+}
+
+.news-text a{
+      color: rgb(107, 81, 6);
+}
+
+
+footer a{
+    color: rgb(40, 30, 2);
+    font-family: rothenbg;
+}
+
+footer a:hover{
+    color: rgb(107, 81, 6);
+
+}
