@@ -11,14 +11,27 @@ body {
   font-family: rothenbg;
 }
 
-#collapsingNavbar a{
+#navbarResponsive a{
   margin-top: 25px;
   color: rgb(40, 30, 2);
   font-size: 4em;
   font-family: rothenbg;
 }
 
-#collapsingNavbar a:hover{
+@media only screen and (max-width: 600px) {
+  #navbarResponsive a{
+    margin-top: 10px;
+    color: rgb(40, 30, 2);
+    font-size: 1.5em;
+    font-family: rothenbg;
+  }
+
+  a {
+    text-decoration: underline !important;
+  }
+}
+
+#navbarResponsive a:hover{
   color: rgb(107, 81, 6);
 }
 
