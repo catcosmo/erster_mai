@@ -26,6 +26,10 @@ body {
   color: rgb(107, 81, 6);
 }
 
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7.5h22M4 15.5h22M4 23.5h22'/%3E%3C/svg%3E");
+}
+
 .menu-active {
   color: rgb(107, 81, 6) !important;
 }
