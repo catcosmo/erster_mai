@@ -1,0 +1,48 @@
+body {
+  bbackground: -moz-linear-gradient(-45deg, rgba(42,214,211,0.15) 0%, rgba(252,118,216,0.15) 72%, rgba(252,118,216,0.15) 100%);
+  background: -webkit-linear-gradient(-45deg, rgba(42,214,211,0.15) 0%,rgba(252,118,216,0.15) 72%,rgba(252,118,216,0.15) 100%);
+  background: linear-gradient(135deg, rgba(42,214,211,0.15) 0%,rgba(252,118,216,0.15) 72%,rgba(252,118,216,0.15) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#262ad6d3', endColorstr='#26fc76d8',GradientType=1 );
+}
+
+@font-face {
+    font-family: kingthings;
+    src: url("../fonts/Kingthings_Trypewriter_2.ttf");
+}
+
+#horst-img {
+  width: 60%;
+}
+
+h1 {
+  margin-top: 25px;
+  font-size: 4em;
+  color: #fe0b89;
+  font-family: 'kingthings', Helvetica, sans-serif;
+}
+
+h3, h4, h5 {
+  font-family: 'kingthings', Helvetica, sans-serif;
+  color: #fe0b89;
+  text-align: justify;
+}
+
+a {
+  font-family: 'kingthings', Helvetica, sans-serif;
+}
+
+div > p {
+  text-align: justify;
+}
+
+footer a{
+    color: black;
+    font-family: 'kingthings', Helvetica, sans-serif;
+    font-size: 0.7em;
+    color: #fe0b89;
+
+}
+
+img {
+  background-color: transparent;
+}
