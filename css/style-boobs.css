@@ -7,3 +7,7 @@
 .text-container {
     margin-top: 5%;
 }
+
+a {
+    color: #fe0b89; !important;
+}
